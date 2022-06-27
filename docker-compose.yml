@@ -5,8 +5,7 @@ services:
     build: .
     ports:
       - 8484:5555
-    depends_on:
-      - book-postgres-service
+  
 
  
  
